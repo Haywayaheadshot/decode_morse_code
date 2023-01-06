@@ -17,7 +17,7 @@ class Morse
 
   def decode_word(word)
     new_word = ''
-    split_words = word.split
+    splitords = word.split
     split_words.each { |n| new_word += decode_char(n) }
     new_word
   end
